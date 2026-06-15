@@ -69,11 +69,13 @@ tablegpt2_pa_outputs/
 *.zip
 *.part
 
-# Narrative experiment reports are result artifacts for this upload.
-# Keep only repository-level and code-package documentation.
+# Narrative experiment reports are uploaded only from the curated reports folder.
+# Keep repository-level documentation and the curated report archive.
 *.md
 !README.md
 !tablegpt2_pa/README.md
+!experiment_reports/
+!experiment_reports/*.md
 
 # Local planning/export folders that are not experiment code
 .trae/
