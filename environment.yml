@@ -1,0 +1,9 @@
+name: arr_rf
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - scikit-learn
+  - openpyxl
+  - joblib

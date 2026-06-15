@@ -1,0 +1,2 @@
+-r requirements_scm_v3.txt
+torch>=2.3.0

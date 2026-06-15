@@ -1,0 +1,6 @@
+-r requirements_scm_v3.txt
+torch>=2.3.0
+transformers>=4.46.0
+accelerate>=0.34.0
+safetensors>=0.4.5
+sentencepiece>=0.2.0

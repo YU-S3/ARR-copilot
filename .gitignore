@@ -1,0 +1,88 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.local
+
+# Python caches and local runtime state
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# Large model weights and model caches
+models/
+models.zip
+TabPFN/
+*.ckpt
+*.safetensors
+*.joblib
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.bin
+*.h5
+*.msgpack
+*.onnx
+*.model
+checkpoint*/
+checkpoints/
+hf_model_cache/
+.cache/
+
+# Clinical/source data and derived spreadsheets
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.tsv
+*.parquet
+*.feather
+
+# Experiment outputs, figures, logs, and generated artifacts
+outputs/
+*_outputs/
+*_outputs*/
+rerun_0428_outputs/
+pa_backend_artifacts/
+tablegpt2_pa_outputs/
+*.log
+*.out
+*.err
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.docx
+*.zip
+*.part
+
+# Narrative experiment reports are result artifacts for this upload.
+# Keep only repository-level and code-package documentation.
+*.md
+!README.md
+!tablegpt2_pa/README.md
+
+# Local planning/export folders that are not experiment code
+.trae/
+external/
+paper/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
